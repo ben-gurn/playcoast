@@ -12,7 +12,7 @@ const ThemeParksSection = () => {
             <div
               key={index}
               className="flex flex-col items-center bg-white p-5 rounded-lg shadow-md text-center hover:scale-105 transition-transform duration-300"
-              style={{ width: '100%', maxWidth: '280px', margin: '10px auto' }}
+              style={{ width: '100%', maxWidth: '360px', margin: '10px auto' }}
             >
               <Image
                 src={park.img}
@@ -23,7 +23,7 @@ const ThemeParksSection = () => {
               />
               <div className="flex flex-col justify-between h-full">
                 <div>
-                  <h3 className="text-xl font-bold mb-2">{park.title}</h3>
+                  <h3 className="text-xl font-bold mb-4">{park.title}</h3>
                   <p className="mb-4 text-gray-700">{park.description}</p>
                 </div>
                 <div className="mt-auto">

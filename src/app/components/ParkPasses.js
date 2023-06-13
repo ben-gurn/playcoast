@@ -4,16 +4,15 @@ import Image from 'next/image';
 const ParkPasses = () => {
   return (
     <div
-      className="bg-gradient-to-r from-blue-600 to-blue-500"
+      className="bg-gradient-to-r from-blue-600 to-blue-500 py-16"
       style={{
         backgroundImage: "url('park-pass-bg.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        height: '700px', // Adjust the height here
       }}
     >
-      <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col items-center justify-center h-full">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="flex flex-col items-center justify-center">
           <h2 className="text-3xl font-bold text-black mb-8">
             Do it all with a multi-park pass
           </h2>
@@ -36,7 +35,7 @@ const ParkPasses = () => {
                 Unlock unlimited thrills and endless fun with the Multi Park
                 Pass for Village Theme Parks Gold Coast, granting you access to
                 multiple world-class attractions, including Movie World, Sea
-                World and Wet'n'Wild, for the ultimate adventure-packed
+                World and Wet&apos;n&apos;Wild, for the ultimate adventure-packed
                 experience!
               </p>
               {/* Button */}

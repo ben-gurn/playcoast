@@ -5,9 +5,12 @@ import themeParksData from '../data/themeParks.json';
 
 const ThemeParksSection = () => {
   return (
-    <div className="max-w-screen-xl mx-auto py-8">
+    <div className="max-w-screen-xl mx-auto py-6">
+      
       <div className="flex justify-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+    
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          
           {themeParksData.map((park, index) => (
             <div
               key={index}

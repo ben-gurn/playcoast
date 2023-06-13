@@ -8,7 +8,7 @@ const NavBar = () => {
     <nav className="sticky top-0 z-50 flex items-center justify-between py-6 px-10 bg-white shadow-md">
       <div className="flex space-x-10">
         <Link href="/">
-          <span className="cursor-pointer text-2xl font-bold">Play Coast</span>
+          <span className="cursor-pointer text-2xl font-bold">PLAY COAST</span>
         </Link>
         <Link href="/">
           <span className="cursor-pointer text-lg text-orange-500">Home</span>

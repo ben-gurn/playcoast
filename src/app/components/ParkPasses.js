@@ -4,14 +4,14 @@ import Image from 'next/image';
 const ParkPasses = () => {
   return (
     <div
-      className="bg-gradient-to-r from-blue-600 to-blue-500 py-16"
+      className="py-16"
       style={{
         backgroundImage: "url('park-pass-bg.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="max-w-screen-xl bg-white mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex flex-col items-center justify-center">
           <h2 className="text-3xl font-bold text-black mb-8">
             Do it all with a multi-park pass

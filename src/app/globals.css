@@ -27,3 +27,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.1em; /* equivalent to Tailwind's tracking-wider */
+}

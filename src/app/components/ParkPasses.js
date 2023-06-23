@@ -6,7 +6,7 @@ const ParkPasses = () => {
     <div
       className="py-16"
       style={{
-        backgroundImage: "url('park-pass-bg.jpg')",
+        backgroundImage: "url('homepage/park-pass-bg.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
@@ -21,7 +21,7 @@ const ParkPasses = () => {
             <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6 flex flex-col items-center hover:scale-105 transition-transform duration-300">
               {/* Image */}
               <Image
-                src="/village-pass.png"
+                src="/homepage/village-pass.png"
                 alt="Village Roadshow Pass"
                 className="w-full h-48 object-cover mb-4 rounded"
                 width={500}
@@ -40,7 +40,7 @@ const ParkPasses = () => {
               </p>
               {/* Button */}
               <button className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition-colors duration-200">
-                View Passes
+                Coming Soon
               </button>
             </div>
 
@@ -48,7 +48,7 @@ const ParkPasses = () => {
             <div className="bg-white bg-opacity-80 rounded-lg shadow-lg p-6 flex flex-col items-center hover:scale-105 transition-transform duration-300">
               {/* Image */}
               <Image
-                src="/dreamworld-pass.jpg"
+                src="/homepage/dreamworld-pass.jpg"
                 alt="DreamWorld Pass"
                 className="w-full h-48 object-cover mb-4 rounded"
                 width={500}
@@ -67,7 +67,7 @@ const ParkPasses = () => {
               </p>
               {/* Button */}
               <button className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition-colors duration-200">
-                View Passes
+                Coming Soon
               </button>
             </div>
           </div>

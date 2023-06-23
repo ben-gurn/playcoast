@@ -13,29 +13,31 @@ const ThemeParksSection = () => {
             {themeParksData.map((park, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center bg-white p-5 rounded-lg shadow-md text-center hover:scale-105 transition-transform duration-300"
-                style={{ width: '100%', margin: '10px auto' }}
+                className="w-full"
+                style={{ margin: '10px auto' }}
               >
-                <Image
-                  src={park.img}
-                  alt={park.title}
-                  className="w-full h-48 object-cover mb-4 rounded"
-                  width={500}
-                  height={300}
-                />
-                <div className="flex flex-col justify-between h-full">
-                  <div>
-                    <h3 className="text-xl font-bold mb-2">{park.title}</h3>
-                    <p className="mb-4 text-gray-700">{park.description}</p>
+                <Link href={park.link}>
+                  <div className="flex flex-col items-center bg-white p-5 rounded-lg shadow-md text-center hover:scale-105 transition-transform duration-300 w-full cursor-pointer">
+                    <Image
+                      src={park.img}
+                      alt={park.title}
+                      className="w-full h-48 object-cover mb-4 rounded"
+                      width={500}
+                      height={300}
+                    />
+                    <div className="flex flex-col justify-between h-full">
+                      <div>
+                        <h3 className="text-xl font-bold mb-2">{park.title}</h3>
+                        <p className="mb-4 text-gray-700">{park.description}</p>
+                      </div>
+                      <div className="mt-auto">
+                        <button className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition-colors duration-200">
+                          Learn More
+                        </button>
+                      </div>
+                    </div>
                   </div>
-                  <div className="mt-auto">
-                    <Link href={park.link}>
-                      <button className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition-colors duration-200">
-                        Learn More
-                      </button>
-                    </Link>
-                  </div>
-                </div>
+                </Link>
               </div>
             ))}
           </div>

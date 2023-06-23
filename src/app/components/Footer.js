@@ -24,22 +24,22 @@ const Footer = () => {
             <h2 className="text-lg font-bold mb-4">Theme Parks</h2>
             <ul className="space-y-2">
               <li>
-                <Link href="#">Sea World</Link>
+                <Link href="/sea-world">Sea World</Link>
               </li>
               <li>
-                <Link href="#">Movie World</Link>
+                <Link href="/movie-world">Movie World</Link>
               </li>
               <li>
-                <Link href="#">Dream World</Link>
+                <Link href="/dreamworld">Dream World</Link>
               </li>
               <li>
-                <Link href="#">Wet &apos;n&apos; Wild</Link>
+                <Link href="wet-n-wild">Wet &apos;n&apos; Wild</Link>
               </li>
               <li>
-                <Link href="#">White Water World</Link>
+                <Link href="whitewater-world">WhiteWater World</Link>
               </li>
               <li>
-                <Link href="#">Paradise Country</Link>
+                <Link href="paradise-country">Paradise Country</Link>
               </li>
             </ul>
           </div>

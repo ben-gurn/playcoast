@@ -1,25 +1,23 @@
+// layout.tsx
 import './globals.css';
 import Head from 'next/head';
-
-export const metadata = {
-  title: 'Play Coast',
-  description: 'Get Cheap Theme Park Tickets for the Gold Coast',
-};
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <>
       <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-          rel="stylesheet"
-        />
+        <title>Play Coast</title>
+        <meta name="description" content="The best place to find tickets for theme parks on the Gold Coast"/>
       </Head>
-      <body>{children}</body>
-    </html>
+      <NavBar />
+      {children}
+      <Footer />
+    </>
   );
 }

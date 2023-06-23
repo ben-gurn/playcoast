@@ -33,3 +33,7 @@ h2 {
   font-weight: normal;
   letter-spacing: 0.1em; /* equivalent to Tailwind's tracking-wider */
 }
+
+p {
+  margin-bottom: 4;
+}

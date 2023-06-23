@@ -1,36 +1,36 @@
 [
     {
-      "img": "/sea-world-card.jpg",
+      "img": "/homepage/sea-world-card.jpg",
       "title": "Sea World",
       "description": "Explore the wonder of the ocean like never before at SeaWorld on the Gold Coast, where marine shows, up-close encounters and unforgettable family adventures await!",
       "link": "/sea-world"
     },
     {
-      "img": "/movie-world-card.jpg",
+      "img": "/homepage/movie-world-card.jpg",
       "title": "Movie World",
-      "description": "Experience the ultimate thrill ride at MovieWorld on the Gold Coast, where fantasy becomes reality and blockbuster adventures come to life!",
+      "description": "Experience the ultimate thrill ride at Movie World on the Gold Coast, where fantasy becomes reality and blockbuster adventures come to life!",
       "link": "/movie-world"
     },
     {
-      "img": "/dream-world-card.jpg",
-      "title": "Dream World",
+      "img": "/homepage/dream-world-card.jpg",
+      "title": "Dreamworld",
       "description": "Have the ultimate adventure at Dreamworld on the Gold Coast, where thrilling rides, captivating shows, and unforgettable memories await you",
-      "link": "/dream-world"
+      "link": "/dreamworld"
     },
     {
-      "img": "/wet-n-wild-card.jpg",
+      "img": "/homepage/wet-n-wild-card.jpg",
       "title": "Wet 'n' Wild",
       "description": "Splash out with the ultimate aquatic adventure at Wet'n'Wild Gold Coast, where thrilling water slides, wave pools, and lazy rivers await to make a splash in your day of excitement and fun!​",
       "link": "/wet-n-wild"
     },
     {
-      "img": "/white-water-world-card.jpg",
-      "title": "White Water World",
+      "img": "/homepage/white-water-world-card.jpg",
+      "title": "WhiteWater World",
       "description": "Dive into a world of exhilarating water thrills and tropical paradise at WhiteWater World Gold Coast, where you can ride epic slides, relax in the sun, and create unforgettable memories​",
-      "link": "/white-water-world"
+      "link": "/whitewater-world"
     },
     {
-      "img": "/paradise-country-card.jpg",
+      "img": "/homepage/paradise-country-card.jpg",
       "title": "Paradise Country",
       "description": "Escape to the Outback at Paradise Country Gold Coast, where you can cuddle adorable animals, and immerse yourself in the beauty of the countryside​",
       "link": "/paradise-country"

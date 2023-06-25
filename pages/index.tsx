@@ -1,4 +1,4 @@
-// pages/index.js
+// pages/page.tsx
 import React from "react";
 import Hero from "../src/app/components/Hero";
 import ThemeParkSection from "../src/app/components/ThemeParkSection"

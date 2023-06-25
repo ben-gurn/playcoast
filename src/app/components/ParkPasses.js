@@ -6,7 +6,7 @@ const ParkPasses = () => {
     <div
       className="py-16"
       style={{
-        backgroundImage: "url('homepage/park-pass-bg.jpg')",
+        backgroundImage: "url('/homepage/park-pass-bg.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

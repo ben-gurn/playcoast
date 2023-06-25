@@ -1,8 +1,4 @@
 import React from 'react';
-import RootLayout from "../src/app/layout";
-import Image from 'next/image';
-import NavBar from '../src/app/components/NavBar';
-import Footer from '../src/app/components/Footer';
 
 
 const About = () => {

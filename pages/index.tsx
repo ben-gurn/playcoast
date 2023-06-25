@@ -1,13 +1,14 @@
 // pages/index.js
 import React from "react";
-import Hero from "./components/Hero";
-import ThemeParkSection from "./components/ThemeParkSection"
-import ParkPasses from "./components/ParkPasses"
+import Hero from "../src/app/components/Hero";
+import ThemeParkSection from "../src/app/components/ThemeParkSection"
+import ParkPasses from "../src/app/components/ParkPasses"
 
 const HomePage = () => {
 
   return (
       <div className="bg-white">
+       
         <Hero />
         <ThemeParkSection />
         <ParkPasses />
@@ -25,10 +26,6 @@ const HomePage = () => {
         </section>
       </div>
   );
-};
-HomePage.layoutProps = {
-  title: "Play Coast",
-  description: "Find the Best Deals for Gold Coast Theme Parks"
 };
 
 

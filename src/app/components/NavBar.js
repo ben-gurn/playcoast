@@ -21,13 +21,13 @@ const NavBar = () => {
           />
         </Link>
         <Link href="/">
-          <span className={`cursor-pointer text-lg ${pathname === '/' ? 'text-orange-500' : 'text-gray-700'}`}>Home</span>
+          <span className={`cursor-pointer text-lg hover:text-orange-500 ${pathname === '/' ? 'text-orange-500' : 'text-gray-700'}`}>Home</span>
         </Link>
         <Link href="/about">
-          <span className={`cursor-pointer text-lg ${pathname === '/about' ? 'text-orange-500' : 'text-gray-700'}`}>About</span>
+          <span className={`cursor-pointer text-lg hover:text-orange-500 ${pathname === '/about' ? 'text-orange-500' : 'text-gray-700'}`}>About</span>
         </Link>
         <Link href="/contact">
-          <span className={`cursor-pointer text-lg ${pathname === '/contact' ? 'text-orange-500' : 'text-gray-700'}`}>Contact</span>
+          <span className={`cursor-pointer text-lg hover:text-orange-500 ${pathname === '/contact' ? 'text-orange-500' : 'text-gray-700'}`}>Contact</span>
         </Link>
       </div>
     </nav>

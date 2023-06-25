@@ -6,7 +6,7 @@ const DreamWorldPage = () => {
       <div
         className="relative bg-top bg-cover"
         style={{
-          backgroundImage: "url('dreamworld/hero.jpg')",
+          backgroundImage: "url('/dreamworld/hero.jpg')",
           height: "40vh",
           width: "100%",
           maxWidth: "100%",
@@ -19,78 +19,79 @@ const DreamWorldPage = () => {
         </div>
       </div>
       <div className="w-4/5 mx-auto py-12">
-      <section >
-        <p className="font-bold mb-6">
-          Step into the magical world of dreams and embark on an unforgettable adventure at Dreamworld. Located in Coomera, Gold Coast, this enchanting theme park offers a wide array of thrilling rides, captivating shows, and delightful attractions that will create lasting memories for visitors of all ages.
-        </p>
-        <p className="mb-6">
-          Dreamworld is home to exhilarating roller coasters, such as the Big Drop and the Cyclone, that will get your adrenaline pumping. Dive into the world of DreamWorks Animation with attractions like Kung Fu Panda: Land of Awesomeness and Madagascar Madness. For a heartwarming experience, don&apos;t miss the Tiger Island show, where you can witness majestic tigers in action.
-        </p>
-        <p className="mb-6">
-          Apart from the rides, Dreamworld presents captivating live shows and performances. Be sure to catch the captivating Illusion Magic Show and the dazzling High Dive Stunt Show, featuring talented performers showcasing their skills. The Dream Parade is a must-see spectacle, bringing beloved characters to life in a vibrant procession.
-        </p>
-        <p className="mb-6">
-          For animal lovers, Dreamworld offers unique wildlife experiences. Explore the Australian Wildlife Experience, where you can encounter native animals such as kangaroos, koalas, and wombats. Get up close to adorable penguins at Penguin Encounter, or immerse yourself in the world of crocodiles at Crocodile Island.
-        </p>
-        <p className="mb-6">
-          To make the most of your visit, plan your day ahead and check the show schedules to ensure you don&apos;t miss any of the incredible performances. Take time to explore themed areas like DreamWorks Experience and Gold Rush Country, where you can meet your favorite characters and indulge in delicious treats and snacks.
-        </p>
-        <p className="mb-6">
-          Dreamworld also offers a variety of dining options, ranging from quick bites to full meals, catering to different tastes and preferences. Don&apos;t forget to explore the souvenir shops and take home cherished mementos of your Dreamworld adventure.
-        </p>
-        <p className="mb-6">
-          Dreamworld is an immersive experience that guarantees a day filled with wonder and excitement. Whether you&apos;re seeking thrilling rides, captivating shows, or up-close animal encounters, this theme park promises a world of dreams brought to life.
-        </p>
-      </section>
+      <section>
+  <p className="font-bold mb-6">
+    Welcome to Dreamworld, the premier location for thrill-seekers and fun-lovers on the Gold Coast in Queensland, Australia. Prepare to enter a realm of dreams and embark on a journey you won&apos;t forget, filled with exciting rides, mesmerizing shows, and delightful attractions for all ages.
+  </p>
+  <p className="mb-6">
+    Boasting over 40 rides and attractions, Dreamworld stands as Australia&apos;s biggest theme park. Feel the rush of adrenaline on heart-stopping roller coasters like The Claw and Pandamonium, or mingle with your beloved DreamWorks Animation characters in attractions such as Kung Fu Panda: Land of Awesomeness and Madagascar Madness. The Tiger Island show is a must-see, where the majesty of tigers will leave you spellbound.
+  </p>
+  <p className="mb-6">
+    Dreamworld also hosts a variety of enthralling live shows and performances. Be astounded by the Illusion Magic Show and the spectacular High Dive Stunt Show, where skilled performers display their talents. Don&apos;t miss the Dream Parade, a colorful spectacle that brings your favorite characters to life.
+  </p>
+  <p className="mb-6">
+    For wildlife enthusiasts, Dreamworld offers unique encounters with animals. Venture into the Australian Wildlife Experience and meet native animals like kangaroos, koalas, and wombats. Visit Penguin Encounter for a close-up view of charming penguins or delve into the world of crocodiles at Crocodile Island.
+  </p>
+  <p className="mb-6">
+    Plan your day in advance and check the show schedules to maximize your visit. Take the opportunity to explore themed areas like DreamWorks Experience, ABC Kids World, and Tiger Island, where you can interact with your favorite characters and enjoy tasty treats and snacks.
+  </p>
+  <p className="mb-6">
+    Dreamworld provides a range of dining options, from quick snacks to full meals, catering to various tastes and preferences. Make sure to visit the souvenir shops and bring home treasured keepsakes of your Dreamworld adventure.
+  </p>
+  <p className="mb-6">
+    Dreamworld is an immersive experience that promises a day filled with awe and excitement. Whether you&apos;re in search of thrilling rides, captivating shows, or intimate animal encounters, this theme park is sure to make your dreams come true.
+  </p>
+</section>
+<section className="py-12">
+  <div className="container">
+    <h2 className="text-4xl mb-8">Tickets</h2>
+    <ol className="list-decimal">
+      <li className="mb-4">
+        Single Day Entry: This ticket grants access to Dreamworld for one day. Visitors can enjoy all the rides, shows, and attractions within the park during operating hours.
+      </li>
+      <li className="mb-4">
+        Multi-Day Pass: If you wish to extend your adventure and explore Dreamworld over several days, consider a multi-day pass. These passes typically allow entry for a certain number of consecutive or non-consecutive days, giving you the freedom to enjoy the park at your leisure.
+        </li>
+      <li className="mb-4">
+        Annual Pass: An annual pass provides unlimited access to Dreamworld for a whole year from the date of purchase. It&apos;s an ideal choice for regular visitors or locals who wish to visit the park multiple times throughout the year. Annual passholders often enjoy additional perks, such as discounts on merchandise, food, and special events.
+      </li>
+      <li className="mb-4">
+        VIP Experience: Dreamworld offers VIP experiences for a more enhanced visit. These experiences may include behind-the-scenes tours, priority access to rides and shows, meet-and-greets with characters, and other exclusive benefits. VIP experiences promise a more personalized and immersive visit to Dreamworld.
+      </li>
+    </ol>
+    <p className="text-sm italic mt-4">
+      Please be aware that ticket options, pricing, and availability may change. It&apos;s recommended to check the official Dreamworld website or contact their customer service for the most current information. Also, look out for any special promotions, packages, or combination passes that may provide access to multiple parks or attractions in the area, allowing you to maximize your entertainment options.
+    </p>
+  </div>
+</section>
 
-      <section className="py-12">
-        <div className="container">
-          <h2 className="text-4xl mb-8">Tickets</h2>
-          <ol className="list-decimal">
-            <li className="mb-4">
-              Single Day Entry: This ticket provides admission to Dreamworld for a single day. Visitors can enjoy all the rides, shows, and attractions within the park during operating hours.
-            </li>
-            <li className="mb-4">
-              Multi-Day Pass: If you want to extend your visit and explore Dreamworld over multiple days, you can opt for a multi-day pass. These passes generally allow entry for a specified number of consecutive or non-consecutive days, giving you the flexibility to enjoy the park at your own pace.
-            </li>
-            <li className="mb-4">
-              Annual Pass: An annual pass grants unlimited entry to Dreamworld for an entire year from the date of purchase. This option is perfect for frequent visitors or locals who want to experience the park multiple times throughout the year. Annual passholders often receive additional benefits, such as discounts on merchandise, food, and special events.
-            </li>
-            <li className="mb-4">
-              VIP Experience: Dreamworld offers VIP experiences that provide an enhanced visit. These experiences may include behind-the-scenes tours, priority access to rides and shows, meet-and-greets with characters, and other exclusive perks. VIP experiences offer a more personalized and immersive visit to Dreamworld.
-            </li>
-          </ol>
-          <p className="text-sm italic mt-4">
-            Please note that ticket options, pricing, and availability are subject to change. It&apos;s advisable to check the official Dreamworld website or contact their customer service for the most up-to-date information. Additionally, keep an eye out for any special promotions, packages, or combination passes that may offer access to multiple parks or attractions in the area, allowing you to maximize your entertainment options.
-          </p>
-        </div>
-      </section>
+<section className="py-12">
+  <div className="container">
+    <h2 className="text-4xl mb-8">How to Get There</h2>
+    <ol className="list-decimal">
+      <li className="mb-4">
+        Public Bus: Dreamworld on the Gold Coast is easily accessible by public transportation. It&apos;s an official Translink bus stop and served by Surfside Buslines. The convenient TX7 theme park service connects Helensvale Station to Coomera Station, with a stop at Dreamworld. 
+      </li>
+      <li className="mb-4">
+        Train and Bus Combination: You can take the train to Coomera Station, then transfer to bus TX7, which provides direct service to Dreamworld. This option combines the convenience of train travel with a bus connection.
+      </li>
+      <li className="mb-4">
+        Taxi or Rideshare: Taxis and rideshare services like Uber or Ola are easily available in the area. Simply request a ride and provide the driver with the address of Dreamworld for a convenient and direct trip.
+      </li>
+      <li className="mb-4">
+        Shuttle Service: Various companies offer shuttle services for tourists traveling between major attractions like Dreamworld. These services usually require advance booking and provide round-trip transportation.
+      </li>
+      <li className="mb-4">
+        Self-Drive: If you have a car, you can drive to Dreamworld. Follow the signs and directions to Pacific Motorway (M1) and take exit 54 to reach Dreamworld. Free on-site parking is available.
+      </li>
+    </ol>
+    <p>
+      When planning your trip, consider factors such as cost, convenience, and the number of people in your group to choose the transportation option that best suits your needs. It&apos;s recommended to check the latest schedules, routes, and availability of each option for a smooth and enjoyable journey.
+    </p>
+  </div>
+</section>
+  </div>
 
-      <section className="py-12">
-        <div className="container">
-          <h2 className="text-4xl mb-8">How to Get There</h2>
-          <ol className="list-decimal">
-            <li className="mb-4">
-              Public Bus: TransLink operates regular bus services that connect various locations to Dreamworld. Check the TransLink website or mobile app for the most up-to-date bus schedules and routes.
-            </li>
-            <li className="mb-4">
-              Train and Bus Combination: Take the train to Coomera Station, then transfer to Bus Route XYZ, which provides direct service to Dreamworld. This option combines the convenience of the train with a bus connection.
-            </li>
-            <li className="mb-4">
-              Taxi or Rideshare: Taxis and rideshare services like Uber or Ola are readily available in the area. Simply request a ride and provide the driver with the address of Dreamworld. This option offers convenience and direct transportation.
-            </li>
-            <li className="mb-4">
-              Shuttle Service: Several companies provide shuttle services specifically catering to tourists traveling between major attractions like Dreamworld. These services usually require advance booking and offer round-trip transportation.
-            </li>
-            <li className="mb-4">
-              Self-Drive: If you have access to a car, you can drive to Dreamworld. Follow the signs and directions to Pacific Motorway (M1) and take Exit XYZ to Dreamworld. On-site parking is available for free.
-            </li>
-          </ol>
-          <p>
-            When planning your trip, consider factors such as cost, convenience, and the number of people in your group to choose the transportation option that best suits your needs. It&apos;s recommended to check the latest schedules, routes, and availability of each option for a smooth and enjoyable journey.
-          </p>
-        </div>
-      </section>
 
       <div className="map-container py-10">
         <iframe
@@ -104,7 +105,8 @@ const DreamWorldPage = () => {
         ></iframe>
       </div>
       </div>
-    </div>
+      
+    
   );
 };
 

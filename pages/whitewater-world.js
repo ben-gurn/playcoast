@@ -6,7 +6,7 @@ const WhiteWaterWorldPage = () => {
       <div
         className="relative bg-center bg-cover"
         style={{
-          backgroundImage: "url('whitewaterworld/hero.jpg')",
+          backgroundImage: "url('/whitewaterworld/hero.jpg')",
           height: "40vh",
           width: "100%",
           maxWidth: "100%",
@@ -65,7 +65,7 @@ const WhiteWaterWorldPage = () => {
                 Public Bus: TransLink operates regular bus services that connect various locations to WhiteWater World. Check the TransLink website or mobile app for the most up-to-date bus schedules and routes.
               </li>
               <li className="mb-4">
-                Train and Bus Combination: Take the train to Coomera Station, then transfer to Bus Route XYZ, which provides direct service to WhiteWater World. This option combines the convenience of the train with a bus connection.
+                Train and Bus Combination: Take the train to Coomera Station, then transfer to Bus Route TX7, which provides direct service to WhiteWater World. This option combines the convenience of the train with a bus connection.
               </li>
               <li className="mb-4">
                 Taxi or Rideshare: Taxis and rideshare services like Uber or Ola are readily available in the area. Simply request a ride and provide the driver with the address of WhiteWater World. This option offers convenience and direct transportation.
@@ -74,7 +74,7 @@ const WhiteWaterWorldPage = () => {
                 Shuttle Service: Several companies provide shuttle services specifically catering to tourists traveling between major attractions like WhiteWater World. These services usually require advance booking and offer round-trip transportation.
               </li>
               <li className="mb-4">
-                Self-Drive: If you have access to a car, you can drive to WhiteWater World. Follow the signs and directions to Pacific Motorway (M1) and take Exit XYZ to WhiteWater World. On-site parking is available for free.
+                Self-Drive: If you have access to a car, you can drive to WhiteWater World. Follow the signs and directions to Pacific Motorway (M1) and take Exit 54 to WhiteWater World. On-site parking is available for free.
               </li>
             </ol>
             <p>

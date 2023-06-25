@@ -3,10 +3,8 @@ import React from "react";
 import Hero from "../src/app/components/Hero";
 import ThemeParkSection from "../src/app/components/ThemeParkSection"
 import ParkPasses from "../src/app/components/ParkPasses"
-import { scroller } from 'react-scroll';
 
-// Import the Link and Element components from react-scroll
-import { Link, Element } from "react-scroll";
+import {Element} from "react-scroll";
 
 const HomePage = () => {
   return (

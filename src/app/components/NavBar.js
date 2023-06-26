@@ -7,19 +7,19 @@ const NavBar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="sticky top-0 z-50 flex items-center justify-between py-6 px-10 bg-white shadow-md">
-      <div className="flex space-x-10 items-center">
+    <nav className="sticky top-0 z-50 flex flex-col lg:flex-row items-center justify-between py-6 px-10 bg-white shadow-md">
+      <div className="cursor-pointer w-60 sm:w-64 md:w-72 lg:w-80 mb-6 lg:mb-0">
         <Link href="/">
-          <div className="cursor-pointer w-60 sm:w-64 md:w-72 lg:w-80">
-            <Image
-              src="/playcoastLogo.png"
-              alt="Play Coast Logo"
-              width={500}
-              height={100}
-              layout="intrinsic"
-            />
-          </div>
+          <Image
+            src="/playcoastLogo.png"
+            alt="Play Coast Logo"
+            width={500}
+            height={100}
+            layout="intrinsic"
+          />
         </Link>
+      </div>
+      <div className="flex flex-row justify-center lg:justify-start space-x-10 items-center">
         <Link href="/">
           <span className={`cursor-pointer text-lg hover:text-orange-500 ${pathname === '/' ? 'text-orange-500' : 'text-gray-700'}`}>Home</span>
         </Link>

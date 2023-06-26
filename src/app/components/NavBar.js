@@ -9,13 +9,13 @@ const NavBar = () => {
   return (
     <nav className="sticky top-0 z-50 flex flex-col lg:flex-row items-center justify-between py-6 px-10 bg-white shadow-md">
       <div className="cursor-pointer w-60 sm:w-64 md:w-72 lg:w-80 mb-6 lg:mb-0">
-        <Link href="/">
+        <Link className="cursor-pointer" href="/">
           <Image
             src="/playcoastLogo.png"
             alt="Play Coast Logo"
             width={500}
             height={100}
-            layout="intrinsic"
+            
           />
         </Link>
       </div>

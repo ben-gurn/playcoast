@@ -153,7 +153,7 @@ const SeaWorldPage = () => {
     </li>
     <li className="mb-4">
       <section title="Self-Drive">
-      Self-Drive: If you have access to a car, you can drive from Surfers Paradise to Sea World. Follow the signs and directions to Sea World Drive in Main Beach, where the park is located. Sea World provides on-site parking for visitors.
+      Self-Drive: If you have access to a car, you can drive from Surfers Paradise to Sea World. Follow the signs and directions to Sea World Drive in Main Beach, where the park is located. Sea World provides free on-site parking for visitors.
       </section>
     </li>
   </ol>

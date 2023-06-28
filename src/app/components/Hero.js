@@ -6,7 +6,7 @@ const Hero = () => {
       className="relative bg-center bg-cover"
       style={{
         backgroundImage: "url('homepage/hero.jpg')",
-        height: "40vh",
+        height: "50vh",
         width: "100%",
         maxWidth: "100%",
         margin: "0 auto",

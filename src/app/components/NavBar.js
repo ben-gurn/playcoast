@@ -9,7 +9,7 @@ const NavBar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="sticky top-0 z-50 flex items-center justify-between py-6 px-10 bg-white shadow-md">
+    <nav className="md:sticky top-0 z-50 flex items-center justify-between py-6 px-10 bg-white shadow-md">
       <div className="flex space-x-10 items-center">
         <Link href="/">
           <Image

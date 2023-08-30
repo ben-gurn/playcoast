@@ -13,7 +13,7 @@ const ParkPasses = () => {
     >
       <div className="max-w-screen-xl bg-white mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex flex-col items-center justify-center">
-          <h2 className="text-3xl font-normal tracking-wider text-black mb-8 font-montserrat">
+          <h2 className="text-3xl font-normal text-center tracking-wider text-black mb-8 font-montserrat">
             Do it all with a multi-park pass
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">

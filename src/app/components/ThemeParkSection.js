@@ -6,7 +6,7 @@ import themeParksData from '../data/themeParks.json';
 const ThemeParksSection = () => {
   return (
     <div className="max-w-screen-xl mx-auto py-8">
-      <h2 className="text-3xl font-normal text-center tracking-wider font-montserrat mb-8">Gold Coast Theme Parks</h2>
+      <h2 className="text-3xl font-normal text-black text-center tracking-wider font-montserrat mb-8">Gold Coast Theme Parks</h2>
       <div className="flex justify-center">
         <div className="flex flex-col items-center">
           <div className="grid px-10 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full">
@@ -27,7 +27,7 @@ const ThemeParksSection = () => {
                     />
                     <div className="flex flex-col justify-between h-full">
                       <div>
-                        <h3 className="text-xl font-bold mb-2">{park.title}</h3>
+                        <h3 className="text-xl text-black font-bold mb-2">{park.title}</h3>
                         <p className="mb-4 text-gray-700">{park.description}</p>
                       </div>
                       <div className="mt-auto">

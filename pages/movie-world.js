@@ -2,7 +2,7 @@ import React from 'react';
 
 const MovieWorldPage = () => {
   return (
-    <div className='bg-white px-1'>
+    <div className='bg-white'>
       <div
         className="relative bg-center bg-cover"
         style={{

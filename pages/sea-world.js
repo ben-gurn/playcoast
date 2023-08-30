@@ -1,10 +1,13 @@
-
 import React from 'react';
+import Head from 'next/head';
 
 const SeaWorldPage = () => {
 
   return (
     <div className='bg-white'>
+      <Head>
+        <title>Play Coast - Sea World, Gold Coast</title>
+      </Head>
       <section>
       <div
       className="relative bg-center bg-cover"
@@ -27,11 +30,12 @@ const SeaWorldPage = () => {
       
       <section className="">
   <div>
-    <p className="mb-6 font-bold">
-      <section title="Sea World">
-        Sea World is a renowned marine theme park situated in Main Beach, Gold Coast, providing an engaging and enlightening experience for visitors of all ages. Covering over 25 hectares, this enthralling park blends entertainment, conservation, and unforgettable encounters with marine life.
-      </section>
-    </p>
+      <section title="Sea World" className="mb-6 font-bold">
+      <p>
+        Sea World is a renowned marine theme park ...
+      </p>
+    </section>
+
     <p className="mb-6">
       One of the main attractions at Sea World is the incredible animal shows. Be sure to catch the Dolphin Presentation, where you can witness the intelligence and agility of these amazing creatures as they perform incredible acrobatics. Don&apos;t miss the Sea Lion Show either, featuring adorable sea lions showcasing their playful nature and entertaining tricks.
     </p>

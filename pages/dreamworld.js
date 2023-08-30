@@ -1,8 +1,12 @@
 import React from 'react';
+import Head from 'next/head';
 
 const DreamWorldPage = () => {
   return (
     <div className='bg-white'>
+      <Head>
+        <title>Play Coast - DreamWorld, Gold Coast</title>
+      </Head>
       <div
         className="relative bg-top bg-cover"
         style={{

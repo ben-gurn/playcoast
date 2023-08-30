@@ -1,9 +1,13 @@
 import React from 'react';
+import Head from 'next/head';
 
 
 const About = () => {
   return (
     <div className='flex items-center justify-center py-12 bg-white'>
+      <Head>
+        <title>Play Coast - About</title>
+      </Head>
 <div className='w-4/5'>
 <h1 className="text-3xl font-bold mb-6">Our Story</h1>
 <p className='mb-4'>

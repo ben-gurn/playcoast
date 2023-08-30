@@ -19,7 +19,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(39, 39, 39);;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -32,11 +32,11 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   letter-spacing: 0.1em; /* equivalent to Tailwind's tracking-wider */
-  color: rgb(39, 39, 39);
+  
 }
 
 p {
   margin-bottom: 4;
-  color: rgb(39, 39, 39);
+ 
 
 }

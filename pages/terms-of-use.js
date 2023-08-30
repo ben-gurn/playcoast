@@ -1,8 +1,12 @@
 import React from 'react';
+import Head from 'next/head';
 
 const TermsOfUse = () => {
   return (
     <div className="bg-white ">
+      <Head>
+        <title>Play Coast - Terms of Use</title>
+      </Head>
     <div className="w-4/5 mx-auto p-6">
       <h2 className="text-2xl font-bold mb-4">Terms of Use</h2>
       <p>Last updated: June 25, 2023</p>

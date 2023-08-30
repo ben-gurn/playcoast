@@ -1,8 +1,12 @@
 import React from 'react';
+import Head from 'next/head';
 
 const PrivacyPolicy = () => {
   return (
     <div className="bg-white">
+      <Head>
+        <title>Play Coast - Privacy Policy</title>
+      </Head>
     <div className="w-4/5 mx-auto p-6">
       <h2 className="text-2xl font-bold mb-4">Privacy Policy</h2>
       <p>Last updated: June 25, 2023</p>

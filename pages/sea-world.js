@@ -1,10 +1,13 @@
-
 import React from 'react';
+import Head from 'next/head';
 
 const SeaWorldPage = () => {
 
   return (
     <div className='bg-white'>
+      <Head>
+        <title>Play Coast - Sea World, Gold Coast</title>
+      </Head>
       <section>
       <div
       className="relative bg-center bg-cover"

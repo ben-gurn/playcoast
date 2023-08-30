@@ -11,8 +11,9 @@ export default function RootLayout({
   return (
     <>
       <Head>
-        <title>Play Coast</title>
+        <title>Play Coast - Gold Coast Theme Parks</title>
         <meta name="description" content="The best place to find tickets for theme parks on the Gold Coast"/>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
       {children}

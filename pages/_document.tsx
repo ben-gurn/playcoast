@@ -16,6 +16,7 @@ class MyDocument extends Document {
         <Head>
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-YFTGC0T4Z9"></script>
           <script dangerouslySetInnerHTML={{ __html: gtagScriptContent }}></script>
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />

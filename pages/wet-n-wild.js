@@ -1,8 +1,12 @@
 import React from 'react';
+import Head from 'next/head';
 
 const WetnWildPage = () => {
   return (
     <div className="bg-white">
+      <Head>
+        <title>Play Coast - Wet&apos;n&apos;Wild, Gold Coast</title>
+      </Head>
       <div
         className="relative bg-center bg-cover"
         style={{

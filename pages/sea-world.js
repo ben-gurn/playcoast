@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Head from 'next/head';
 
 const SeaWorldPage = () => {
+  useEffect(() => {
+    // Define the script loader function
+    const loadScript = () => {
+      const script = document.createElement('script');
+      script.src = 'https://affiliate.klook.com/widget/fetch-iframe-init.js';
+      script.async = true;
+      document.body.appendChild(script);
+    };
+
+    // Call the script loader function
+    loadScript();
+  }, []); // Empty dependency array means this useEffect runs once after initial render
 
   return (
     <div className='bg-white'>
@@ -27,7 +39,20 @@ const SeaWorldPage = () => {
       </section>
       <div className = "w-4/5 mx-auto py-12">
 
-      
+      <ins
+          className="klk-aff-widget" 
+          data-adid="761303" 
+          data-lang="en" 
+          data-currency="AUD" 
+          data-cardh="126" 
+          data-padding="92" 
+          data-lgh="470" 
+          data-edgevalue="655" 
+          data-prod="static_widget" 
+          data-amount="2"
+        >
+          <a href="//www.klook.com/">Klook.com</a>
+        </ins>
       <section className="">
   <div>
       <section title="Sea World" className="mb-6 font-bold">

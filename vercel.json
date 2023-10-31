@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "tickets.playcoast.com.au/(.*)",
+        "destination": "https://www.klook.com/en-AU/popular/activities/?aid=42846&tab_key=All&city_id=72&spm=City.Popular%3Aany%3A%3AHotActV2%3AViewMoreBtn",
+        "permanent": true
+      }
+    ]
+  }

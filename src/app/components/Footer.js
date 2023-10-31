@@ -41,6 +41,9 @@ const Footer = () => {
               <li>
                 <Link href="paradise-country">Paradise Country</Link>
               </li>
+              <li>
+                <Link href="tickets.playcoast.com.au">Tickets</Link>
+              </li>
             </ul>
           </div>
           <div className="mb-6">
